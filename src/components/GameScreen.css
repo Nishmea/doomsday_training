@@ -1,0 +1,68 @@
+div.game-screen {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #F4E3B2;
+    color: #050517;
+}
+
+div.game-screen>h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 16px;
+}
+
+div.game-screen>h2 {
+    text-align: center;
+}
+
+div.control-buttons {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 8px;
+}
+
+div.control-buttons>button {
+    color: #F4E3B2;
+    cursor: help;
+}
+
+div.control-buttons>button:hover {
+    color: #D3D5D7;
+}
+
+div.control-buttons>button:disabled {
+    /* color: #D3D5D7; */
+    opacity: 0.8;
+    cursor: default;
+}
+
+div.control-buttons>button.correct {
+    color: #7FB069;
+    cursor: grab;
+}
+
+div.control-buttons>button.incorrect {
+    color: #CF5C36;
+    cursor: not-allowed;
+}
+
+
+div.control-buttons>button.next {
+    background-color: #7FB069;
+    color: #050517;
+    cursor: default;
+}
+
+div.control-buttons>button.next:hover {
+    color: #F4E3B2;
+}
+
+div.control-buttons>button.skip {
+    background-color: #CF5C36;
+    color: #050517;
+    cursor: default;
+}
+
+div.control-buttons>button.skip:hover {
+    color: #F4E3B2;
+}

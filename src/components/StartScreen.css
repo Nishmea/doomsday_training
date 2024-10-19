@@ -1,0 +1,32 @@
+.start-screen {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    text-align: center;
+    background-color: #CF5C36;
+    color: #050517;
+}
+
+.start-screen>h1 {
+    padding: 0px 32px;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.start-screen>h2 {
+    max-width: 58%;
+}
+
+.start-screen>button {
+    background-color: #050517;
+    color: #CF5C36;
+}
+
+.start-screen>button:hover {
+    color: #7FB069;
+}

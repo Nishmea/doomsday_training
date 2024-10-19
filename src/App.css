@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Sono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  width: 58%;
+  margin: 0px auto;
+  padding: 8px;
+  border: none;
+  border-radius: 12px;
+  font-family: "Sono", monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #1D1A05;
+  background-color: #050517;
+  color: inherit;
+}
+
+*.correct {
+  color: #7FB069;
+}
+
+*.incorrect {
+  color: #CF5C36;
+}
+
+*.skipped {
+  color: grey;
+}
+
+.palette {
+  color: #050517;
+  color: #CF5C36;
+  color: #7FB069;
+  color: #F4E3B2;
+  color: #D3D5D7; 
+}
