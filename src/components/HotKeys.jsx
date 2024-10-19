@@ -92,6 +92,8 @@ export default function HotKeys({
                     case 'KeyM':
                         updateSetting('mode');
                         break;
+                    default:
+                        break;
                 }
             }
         }

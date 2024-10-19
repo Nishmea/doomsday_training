@@ -12,7 +12,7 @@ export default function History({
 
     const score = React.useMemo(() => {
         return modeHistory.filter((h) => h.result === 'correct').length;
-    }, [modeHistory, settings]);
+    }, [modeHistory]);
 
     const streak = React.useMemo(() => {
         const streakString = modeHistory.map((h) => (h?.result === 'correct' ? '1' : '0')).join('');
